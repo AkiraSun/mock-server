@@ -6,7 +6,8 @@
     "start": "node ./bin/www",
     "watch": "pm2 start ./bin/www --watch",
     "log":"pm2 logs",
-    "monit": "pm2 monit"
+    "monit": "pm2 monit",
+    "stop":"pm2 stop ./bin/www "
   },
   "dependencies": {
     "body-parser": "~1.15.2",
